@@ -9,7 +9,7 @@ import App from "../App";
 import Traductor from "../screens/traductor/traductor.jsx"
 
 
-const basename = process.env.NODE_ENV === 'production' ? '/desarrollo-frontend-react' : '/';
+const basename = process.env.NODE_ENV === 'production' ? '/recuperatorio7' : '/';
 
 const routes = createBrowserRouter([
     {

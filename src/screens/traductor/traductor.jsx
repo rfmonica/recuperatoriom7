@@ -4,9 +4,10 @@ import { ModalAgregar } from './components/ModalAgregar';
 import { ModalEliminar } from './components/ModalEliminar';
 import { ModalTraducir } from './components/ModalTraducir';
 import './components/Modal.css'
+import '../../MainForm.css'; 
 
 
-const Home = () => {
+const Traductor = () => {
   const [modalAgregar, setModalAgregar] = useState(false);
   const [modalEliminar, setModalEliminar] = useState(false);
   const [modalTraducir, setModalTraducir] = useState(false);
@@ -14,9 +15,9 @@ const Home = () => {
   return (
     <div>
       <h1>Traductor USIP</h1>
-      <button onClick={() => setModalAgregar(true)}>Agregar Palabra</button>
-      <button onClick={() => setModalEliminar(true)}>Eliminar Palabra</button>
-      <button onClick={() => setModalTraducir(true)}>Traducir</button>
+      <button className="agregar-btn" onClick={() => setModalAgregar(true)}>Agregar Palabra</button>
+      <button className="delete-btn" onClick={() => setModalEliminar(true)}>Eliminar Palabra</button>
+      <button  className="translate-btn" onClick={() => setModalTraducir(true)}>Traducir</button>
 
       {modalAgregar && <ModalAgregar onClose={() => setModalAgregar(false)} />}
       {modalEliminar && <ModalEliminar onClose={() => setModalEliminar(false)} />}
@@ -25,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Traductor;

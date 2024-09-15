@@ -23,7 +23,7 @@ export const App = () =>
         <Navbar />
         <Outlet />
     
-        <div className="main-container">
+        {/* <div className="main-container">
           <h1>Traductor USIP</h1>
           <p>Seleccione una acción para interactuar con el diccionario:</p>
 
@@ -34,7 +34,8 @@ export const App = () =>
           {showAgregar && <ModalAgregar onClose={() => setShowAgregar(false)} />}
           {showEliminar && <ModalEliminar onClose={() => setShowEliminar(false)} />}
            {showTraducir && <ModalTraducir onClose={() => setShowTraducir(false)} />}
-     </div> 
+     </div>  */}
+
   </>
 
   );

@@ -36,25 +36,31 @@
     transition: background-color 0.3s;
   }
   
-  .main-container button:hover {
+  .button:hover {
     background-color: #0056b3;
   }
   
   /* Botón especial para eliminar */
-  .main-container .delete-btn {
+  .delete-btn {
     background-color: #dc3545;
   }
   
-  .main-container .delete-btn:hover {
+  .delete-btn:hover {
     background-color: #c82333;
   }
+  .agregar-btn {
+    background-color: #506a97;
+  }
   
+  .agregat-btn:hover {
+    background-color: #506a97;;
+  }
   /* Botón especial para traducir */
-  .main-container .translate-btn {
+  .translate-btn {
     background-color: #28a745;
   }
   
-  .main-container .translate-btn:hover {
+ .translate-btn:hover {
     background-color: #218838;
   }
   

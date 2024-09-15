@@ -1,0 +1,60 @@
+/* src/MainForm.css */
+
+/* Estilo general del contenedor principal */
+.main-container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .main-container p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Estilo para los botones principales */
+  .main-container button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .main-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Botón especial para eliminar */
+  .main-container .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .main-container .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Botón especial para traducir */
+  .main-container .translate-btn {
+    background-color: #28a745;
+  }
+  
+  .main-container .translate-btn:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,83 @@
+/* src/Modal.css */
+
+/* Estilo general del fondo de los modales */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Estilo del contenedor del modal */
+  .modal {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .modal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .modal label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    text-align: left;
+  }
+  
+  .modal input,
+  .modal select,
+  .modal textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .modal button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mensaje de error o éxito */
+  .modal p {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Botón adicional estilo */
+  .modal .close-btn {
+    background-color: #dc3545;
+  }
+  
+  .modal .close-btn:hover {
+    background-color: #c82333;
+  }
+  

@@ -4,7 +4,10 @@ import Default from "../screens/Default";
 import Product from "../screens/Product";
 import LoginForm from "../screens/Forms/LoginForm";
 
+
 import App from "../App";
+import Traductor from "../screens/traductor/traductor.jsx"
+
 
 const basename = process.env.NODE_ENV === 'production' ? '/desarrollo-frontend-react' : '/';
 
@@ -24,6 +27,10 @@ const routes = createBrowserRouter([
             {
                 path: '/login',
                 element: <LoginForm />,
+            },
+            {
+                path: '/traductor',
+                element: <Traductor />,
             },
         ]
     }
